@@ -1,0 +1,41 @@
+body {
+    font-family: "Rubik Wet Paint", system-ui;
+    background-color: lightpink;
+}
+
+.hero_title {
+    background-color: lightgreen;
+    display: flex;
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: center;
+
+
+}
+
+.hero_title h1 {
+    color: brown;
+    border-style: double;
+    border-bottom: solid brown 10px;
+}
+
+.images {
+    padding: 50px;
+    flex-grow: 1;
+
+    margin: 10px;
+   
+    flex-wrap: wrap;
+
+
+    justify-content: space-between;
+}
+
+.images img {
+    margin: 10px;
+    border: solid black 4px;
+
+    height: 275px;
+    width: 275px;
+
+}
